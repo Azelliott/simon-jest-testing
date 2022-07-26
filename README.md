@@ -16,7 +16,7 @@ To create the package.json, first initialize with:
 
 `npm init`
 
-Only add "jest" as a test command and you can leave everythin else as default 
+Only add "jest" as a test command and you can leave everything else as default 
 
 To install Jest run:
 
@@ -28,4 +28,21 @@ Note: since Jest 28 "jest-environment-jsdom" needs to be installed separatley, s
 
 Test file is located in scripts/tests
 
+## Game screenshot
+
+![ScreenShot](screenshots/simon-memory-game.png)
+
+To run this locally, first clone the repo with
+
+> git clone https://github.com/Azelliott/simon-jest-testing
+
+You can then use any server to serve static files (Apache, Nginx, Node.js...),
+or run the files directly from disk
+
+To install the neccesary test modules do:
+
+`npm install`
+
+## Demo
+[Simon memory game](https://azelliott.github.io/simon-jest-testing/)
 
